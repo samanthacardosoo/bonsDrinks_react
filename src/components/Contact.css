@@ -1,0 +1,68 @@
+.contatos {
+    background: #fffdf8;
+    display:grid;
+    grid-area: contact;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,3fr);
+    gap: 20px;
+}
+.tituloContato {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 2%;
+    background: #fffdf8;
+}
+
+.img {
+    width: 520px;
+    height: 400px;
+    margin-left: 15%;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: repeat(1, 3fr);
+    place-items: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 5px;
+    margin: 5%
+  
+} 
+
+.name {
+    padding: 10px;
+    border: 1px solid #5c0511;
+    border-radius: 4px;
+    color:#F9AE48;
+
+    
+}
+
+.email {
+    padding: 10px;
+    border: 1px solid #5c0511;
+    border-radius: 4px;
+}
+
+.msg {
+    border: 1px solid #5c0511;
+    border-radius: 4px;
+}
+
+.botao {
+    text-align: center;
+}
+.btn {
+    text-align: center;
+    padding: 1.5% 9%;
+    font-size: 18px;
+    background-color: #5c0511;
+    color: white;
+    border: 2px solid #5c0511;
+    border-radius: 5px;
+}
+
