@@ -1,6 +1,8 @@
 import React from 'react'
 import './Contact.css'
-import ContactPic from '../img/contact-pic.jpg'
+import ContactPic from '../../img/contact-pic.jpg'
+import Input from '../Input/Input'
+import Button from '../Button/Button'
 
 class Contact extends React.Component {
     render(){
@@ -11,14 +13,12 @@ class Contact extends React.Component {
                     <img src={ContactPic} alt="" className="img"></img>
                     <form className="formulario">    
                         <label>Nome: </label>
-                        <input type="text" className="name"/>
+                        <Input />
                         <label>E-mail: </label>
-                        <input type="text" className="email"/>
+                        <Input />
                         <label>Mensagem: </label>
-                        <textarea type="text" className="msg" rows="10"/>
-                        <div className="botao"> 
-                            <button className="btn">Enviar</button>
-                        </div>
+                        <textarea type="text" className="msg" rows="10" />
+                        <Button />
                     </form>
                 </div>
             </div> 

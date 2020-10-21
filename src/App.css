@@ -4,7 +4,10 @@
   grid-template-areas:
     'header'
     'contact'
-    'footer';
+    'footer'
+    'about'
+    'drinks'
+    'home';
 }
 
 .App-logo {

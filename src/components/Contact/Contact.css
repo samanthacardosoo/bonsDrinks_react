@@ -1,5 +1,7 @@
-.contatos {
+.geralContatos {
     background: #fffdf8;
+}
+.contatos {
     display:grid;
     grid-area: contact;
     grid-template-columns: repeat(2,1fr);
@@ -11,7 +13,6 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 2%;
-    background: #fffdf8;
 }
 
 .img {
@@ -33,36 +34,8 @@
   
 } 
 
-.name {
-    padding: 10px;
-    border: 1px solid #5c0511;
-    border-radius: 4px;
-    color:#F9AE48;
-
-    
-}
-
-.email {
-    padding: 10px;
-    border: 1px solid #5c0511;
-    border-radius: 4px;
-}
-
 .msg {
     border: 1px solid #5c0511;
     border-radius: 4px;
-}
-
-.botao {
-    text-align: center;
-}
-.btn {
-    text-align: center;
-    padding: 1.5% 9%;
-    font-size: 18px;
-    background-color: #5c0511;
-    color: white;
-    border: 2px solid #5c0511;
-    border-radius: 5px;
 }
 

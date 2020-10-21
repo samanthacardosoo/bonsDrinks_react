@@ -1,0 +1,20 @@
+.geralAbout {
+    background: #fffdf8;
+}
+.about {
+    display: grid;
+    grid-area: about;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.text{
+    text-align: justify;
+    margin-right: 10%;
+    text-indent: 5%;
+}

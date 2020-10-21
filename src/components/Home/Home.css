@@ -1,0 +1,25 @@
+.geralHome {
+    width: auto;
+    height: auto;
+}
+.img {
+    background-image: url('../../img/bg-bons-drinks.jpg');
+    background-position: no-repeat;
+    background-size: 100%;
+    background-position: 0px 75%;
+    width: auto;
+    margin: 0;
+    display: grid;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+}
+
+.titulo {
+    z-index: 2;
+    text-align: center;
+    align-items: center;
+    font-size: 120px;
+    font-family: 'Bilbo Swash Caps', cursive;
+    color: #FFFFFF;
+    margin: auto;
+}

@@ -1,12 +1,16 @@
-.rodape {
+.geralRodape {
     background: #fffbef;
     grid-area: footer;
     height: 40px;
 }
+.rodape {
+    background: #fffbef;
+    grid-area: footer;
+}
 .textoRodape {
     text-align: center;
     color: #000000;
-    padding: 3%;
+    padding: 2%;
     margin: 0;
     font-size: 18px;
     font-weight: bold;
